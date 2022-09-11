@@ -9,11 +9,17 @@
 int main(void)
 {
 	char alphabet = 'a';
+	char uppercase = 'A';
 
-	while (alphabet <= 'Z')
+	while (alphabet <= 'z')
 	{
 		putchar(alphabet);
 		alphabet++;
+	}
+	while(uppercase <= 'Z')
+	{
+		putchar(uppercase);
+		uppercase++;
 	}
 	putchar('\n');
 	return (0);
