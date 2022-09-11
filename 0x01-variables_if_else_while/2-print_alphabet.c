@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(alphabet);
 		alphabet++;
-	{
+	}
 	return (0);
 
 }
