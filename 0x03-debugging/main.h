@@ -2,6 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 
+int largest_number(int a, int b, int c);
 void positive_or_negative(int i);
 int print_alphabet(void);
 int print_alphabet_x10(void);
