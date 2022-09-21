@@ -8,7 +8,7 @@
  *Return: not.
  */
 
-void swap_int(int *a, itn *b)
+void swap_int(int *a, int *b)
 {
 	int n = *a;
 	*a = *b;
