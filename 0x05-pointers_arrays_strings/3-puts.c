@@ -3,7 +3,7 @@
 
 /**
  * _puts - prints a string, to stdout
- * #str: value to be evaluated.
+ * @str: value to be evaluated.
  * Return: not.
  */
 
@@ -13,7 +13,7 @@ void _puts(char *str)
 
 	while (*(str + l) != '\0')
 	{
-		_putchar(str[1]);
+		_putchar(str[l]);
 		l++;
 	}
 
