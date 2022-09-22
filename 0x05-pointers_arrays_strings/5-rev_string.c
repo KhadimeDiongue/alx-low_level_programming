@@ -23,12 +23,11 @@ void rev_string(char *s)
 		len++;
 	}
 	l = len - 1;
-	for( ; e < ((l / 2) + 1); e++)
+	for ( ; e < ((l / 2) + 1); e++)
 	{
 		x = (l - e);
 		n = s[e];
 		s[e] = s[x];
 		s[x] = n;
 	}
-}
-		
+}		
