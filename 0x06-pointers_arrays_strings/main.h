@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-char *cap_string(char *n);
+char *cap_string(char *);
 char *string_toupper(char *);
 void puts2(char *str);
 void rev_string(char *s);
