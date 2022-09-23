@@ -9,7 +9,7 @@
 int main(void)
 {
 	int hundreds;
-	int tens; 
+	int tens;
 	int ones;
 
 	for (hundreds = 0; hundreds <= 9; hundreds++)
