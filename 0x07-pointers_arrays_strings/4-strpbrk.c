@@ -6,7 +6,7 @@
  * @s: the string
  * @accept: set of bytes
  *
- * Return; a pointer to the byte in s that matches one of eh byt
+ * Return: a pointer to the byte in s that matches one of eh byt
  * es in teh stirng
  */
 char *_strpbrk(char *s, char *accept)
